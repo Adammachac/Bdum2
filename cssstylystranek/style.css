@@ -9,6 +9,17 @@ body {
     overflow-x: hidden;
 }
 
+@media only screen and (max-width: 768px) { /* Pro mobilní zařízení s šířkou do 768px */
+    .container { /* Předpokládám, že máš hlavní kontejner s tímto názvem */
+        display: flex;
+        justify-content: center; /* Horizontální střed */
+        align-items: center; /* Vertikální střed */
+        height: 100vh; /* Výška na celou obrazovku */
+        margin: 0 auto; /* Aby se to vešlo do středu */
+        padding: 0 20px; /* Přidání nějakého okraje */
+    }
+}
+
 /* Nadpisy a texty */
 h1, h2 {
     font-family: 'Poppins', sans-serif; /* Konzistentní písmo pro nadpisy */
