@@ -443,7 +443,7 @@ p, .testimonial-slider .review-item p {
 
 .testimonial-slider-wrapper {
     display: flex;
-    animation: slide 40s linear infinite;
+    animation: slide 40s infinite linear;
 }
 
 @keyframes slide {
